@@ -1,0 +1,14 @@
+PUT http://localhost:8080/rename?id=2
+Content-Type: application/json
+
+{
+  "name": "learning csharp"
+}
+
+### Update Status
+PUT http://localhost:8080/status?id=2
+Content-Type: application/json
+
+{
+  "taskdone": true
+}
