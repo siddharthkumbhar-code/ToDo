@@ -22,3 +22,8 @@ Content-Type: application/json
   "name": "learn java",
   "taskdone": false
 }
+
+###Delete Task
+DELETE http://localhost:8080/delete?id=7
+Content-Type: application/json
+
