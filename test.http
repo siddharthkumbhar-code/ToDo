@@ -1,3 +1,4 @@
+### Rename Task
 PUT http://localhost:8080/rename?id=2
 Content-Type: application/json
 
@@ -11,4 +12,13 @@ Content-Type: application/json
 
 {
   "taskdone": true
+}
+
+### Add Task
+POST http://localhost:8080/add
+Content-Type: application/json
+
+{
+  "name": "learn java",
+  "taskdone": false
 }
