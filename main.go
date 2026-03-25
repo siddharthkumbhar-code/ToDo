@@ -150,6 +150,12 @@ func updateStatus(w http.ResponseWriter,r *http.Request){
 
 }
 
+func updateallthedata()
+{
+	 fmt.Println("this update from soham ")
+	 fmt.Println("this is from soham branch")
+}
+
 func main() {
 
 	var err error
